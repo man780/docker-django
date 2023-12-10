@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e352d58-2586-4b4b-aca5-76dce44947eb" name="Changes" comment="Django project run via docker">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="0e352d58-2586-4b4b-aca5-76dce44947eb" name="Changes" comment="db added">
+      <change afterPath="$PROJECT_DIR$/app/dist.env.dev" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/entrypoint.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/hello_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/hello_django/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +52,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/murat.tatibayev/Desktop/projects/NewSite/app/manage.py"
+    "last_opened_file_path": "C:/Users/murat.tatibayev/Desktop/projects/NewSite/app"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\murat.tatibayev\Desktop\projects\NewSite\app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\murat.tatibayev\Desktop\projects\NewSite\app" />
       <recent name="C:\Users\murat.tatibayev\Desktop\projects\NewSite" />
@@ -141,12 +144,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702227777943</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="db added">
+      <option name="closed" value="true" />
+      <created>1702229199997</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702229199997</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Django project started" />
     <MESSAGE value="Django project run via docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Django project run via docker" />
+    <MESSAGE value="db added" />
+    <option name="LAST_COMMIT_MESSAGE" value="db added" />
   </component>
 </project>
