@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e352d58-2586-4b4b-aca5-76dce44947eb" name="Changes" comment="db added">
-      <change afterPath="$PROJECT_DIR$/app/dist.env.dev" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entrypoint.sh" afterDir="false" />
+    <list default="true" id="0e352d58-2586-4b4b-aca5-76dce44947eb" name="Changes" comment="entrypoint file added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/hello_django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/hello_django/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/hello_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/hello_django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/hello_django/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,13 +155,22 @@
       <option name="project" value="LOCAL" />
       <updated>1702229199997</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="entrypoint file added">
+      <option name="closed" value="true" />
+      <created>1702231196056</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702231196056</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Django project started" />
     <MESSAGE value="Django project run via docker" />
     <MESSAGE value="db added" />
-    <option name="LAST_COMMIT_MESSAGE" value="db added" />
+    <MESSAGE value="entrypoint file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="entrypoint file added" />
   </component>
 </project>
