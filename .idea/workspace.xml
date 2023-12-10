@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e352d58-2586-4b4b-aca5-76dce44947eb" name="Changes" comment="Django project started">
-      <change afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/hello_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/hello_django/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/hello_django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/hello_django/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,12 @@
     "last_opened_file_path": "C:/Users/murat.tatibayev/Desktop/projects/NewSite/app/manage.py"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\murat.tatibayev\Desktop\projects\NewSite\app" />
+      <recent name="C:\Users\murat.tatibayev\Desktop\projects\NewSite" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="New Site" type="PythonConfigurationType" factoryName="Python">
       <module name="NewSite" />
@@ -108,7 +110,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702226023856</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Django project started">
+      <option name="closed" value="true" />
+      <created>1702226842143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702226842143</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Django project started">
+      <option name="closed" value="true" />
+      <created>1702226850162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702226850162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
