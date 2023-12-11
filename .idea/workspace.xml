@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e352d58-2586-4b4b-aca5-76dce44947eb" name="Changes" comment="entrypoint file added">
+    <list default="true" id="0e352d58-2586-4b4b-aca5-76dce44947eb" name="Changes" comment="django sample app with postgres via docker configured">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/hello_django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/hello_django/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/hello_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/hello_django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/hello_django/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +42,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.run.executor": "Run",
     "Python.New Site.executor": "Run",
     "Python.manage.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/murat.tatibayev/Desktop/projects/NewSite/app"
+    "last_opened_file_path": "C:/Users/murat.tatibayev/Desktop/projects/NewSite/app/docker-compose.yml"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -67,7 +61,7 @@
       <recent name="C:\Users\murat.tatibayev\Desktop\projects\NewSite" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.run">
     <configuration name="New Site" type="PythonConfigurationType" factoryName="Python">
       <module name="NewSite" />
       <option name="ENV_FILES" value="$PROJECT_DIR$/app/.env.dev" />
@@ -90,6 +84,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="run" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="app/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.run" />
+      <item itemvalue="Python.New Site" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -163,14 +170,46 @@
       <option name="project" value="LOCAL" />
       <updated>1702231196056</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="django sample app with postgres via docker configured">
+      <option name="closed" value="true" />
+      <created>1702233506524</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702233506524</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Django project started" />
     <MESSAGE value="Django project run via docker" />
     <MESSAGE value="db added" />
     <MESSAGE value="entrypoint file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="entrypoint file added" />
+    <MESSAGE value="django sample app with postgres via docker configured" />
+    <option name="LAST_COMMIT_MESSAGE" value="django sample app with postgres via docker configured" />
   </component>
 </project>
