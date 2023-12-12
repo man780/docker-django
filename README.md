@@ -17,3 +17,15 @@ via `docker-compose exec` command
 ```commandline
 docker-compose exec db psql --username=hello_django --dbname=hello_django_dev
 ```
+
+### Create superuser
+Every time when needed creating superuser
+```commandline
+docker-compose exec web python manage.py createsuperuser
+```
+
+### Creds
+- login: `root`
+- email: `root@ucell.local`
+- password: `Asdfgh123$`
+
