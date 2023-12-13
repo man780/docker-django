@@ -9,3 +9,7 @@ urlpatterns = [
 
 urlpatterns += static(settings.MEDIA_URL,
                       document_root=settings.MEDIA_ROOT)
+
+admin.site.index_title = "Ucell New site"
+admin.site.site_header = "Ucell site admin panel"
+admin.site.site_title = "Ucell site"
