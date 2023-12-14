@@ -12,7 +12,7 @@ from ..serializers.page import (
 class PageViewSet(ModelViewSet):
     queryset = Page.objects.all()
     ordering = ('id',)
-    filterset_fields = ['last_name', 'name', 'p_name']
+    filterset_fields = ['title']
 
     def get_serializer_class(self):
         if self.action == 'list':
