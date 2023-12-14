@@ -14,6 +14,7 @@ class Menu(models.Model):
     menu_id = models.ForeignKey("self", null=True, blank=True, on_delete=models.SET_NULL)
     status = models.SmallIntegerField(choices=STATUS_CHOICES, verbose_name="Status")
     created_time = models.DateTimeField(auto_now_add=True)
+    updated_time = models.DateTimeField(auto_now_add=True)
 
     def save(self, *args, **kwargs):
         # Generate a slug when saving the page
